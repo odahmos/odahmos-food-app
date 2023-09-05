@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/odahmos-food-app/static/css/main.047c737e.css",
+    "main.js": "/odahmos-food-app/static/js/main.6a29dc74.js",
+    "static/js/787.a22cbe65.chunk.js": "/odahmos-food-app/static/js/787.a22cbe65.chunk.js",
+    "index.html": "/odahmos-food-app/index.html",
+    "main.047c737e.css.map": "/odahmos-food-app/static/css/main.047c737e.css.map",
+    "main.6a29dc74.js.map": "/odahmos-food-app/static/js/main.6a29dc74.js.map",
+    "787.a22cbe65.chunk.js.map": "/odahmos-food-app/static/js/787.a22cbe65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.047c737e.css",
+    "static/js/main.6a29dc74.js"
+  ]
+}
