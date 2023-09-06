@@ -176,9 +176,7 @@ function Home() {
             "textAlign":"center"
         }
 
-    if(loading){
-        return <h1 style={style}>Loading ...</h1>
-    }
+    
     if(error){
         
         return <pre>{JSON.stringify(error)}</pre>
@@ -255,7 +253,9 @@ function Home() {
                             
                                 <FoodHeader pageSize={pageSize} searchFood={searchFood} results={results} handleTextSearch={handleTextSearch} handleChange={handleChange}/>
                                 
-                                {data.map(function(da, idx){
+                                {loading ? 
+         <h1 style={style}>Loading ...</h1>
+     : data.map(function(da, idx){
                                         return (<FoodEntry avatar={da.image} name={da.title} location={da.title} id={da.id}/>)
                                 })}
 

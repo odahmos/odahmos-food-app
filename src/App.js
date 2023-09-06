@@ -13,6 +13,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/odahmos-food-app" element={<Home />} />
         <Route path="/food/:foodId" element={<FoodDetails/>}/>
       </Routes>
       {/*
