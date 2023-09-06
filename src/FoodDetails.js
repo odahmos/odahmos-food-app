@@ -37,7 +37,7 @@ function FoodDetails() {
     return (
         <div class="container">
             <div class="row ng-scope">
-                <h1>Info: xxxx</h1>
+                <h1>Info:</h1>
                 <p><img src={image}/></p>
                 <div dangerouslySetInnerHTML={{__html: summary}}></div>
              </div>
